@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/motionContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".sameAnim.CircleMotionActivity">
+
+    <Button
+        android:id="@+id/btnTop"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintLeft_toLeftOf="@id/mainBtn"
+        app:layout_constraintRight_toRightOf="@id/mainBtn"
+        app:layout_constraintTop_toTopOf="@id/mainBtn"
+        app:layout_constraintBottom_toBottomOf="@id/mainBtn"
+        android:background="@drawable/rounded_btn_secondary"
+        />
+
+    <Button
+        android:id="@+id/btnTopLeft"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintLeft_toLeftOf="@id/mainBtn"
+        app:layout_constraintRight_toRightOf="@id/mainBtn"
+        app:layout_constraintTop_toTopOf="@id/mainBtn"
+        app:layout_constraintBottom_toBottomOf="@id/mainBtn"
+        android:background="@drawable/rounded_btn_secondary"
+        />
+
+    <Button
+        android:id="@+id/btnTopRight"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintLeft_toLeftOf="@id/mainBtn"
+        app:layout_constraintRight_toRightOf="@id/mainBtn"
+        app:layout_constraintTop_toTopOf="@id/mainBtn"
+        app:layout_constraintBottom_toBottomOf="@id/mainBtn"
+        android:background="@drawable/rounded_btn_secondary"
+        />
+
+    <Button
+        android:id="@+id/mainBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/rounded_btn_primary"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

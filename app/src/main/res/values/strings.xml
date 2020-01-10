@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidAnimation</string>
+    <string name="view_anim">View Animation</string>
+    <string name="motion_anim">Motion Animation</string>
+    <string name="circle_motion">Circle Motion</string>
+    <string name="circle_animation">Circle animation</string>
+</resources>
