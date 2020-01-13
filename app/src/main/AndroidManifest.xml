@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".sameAnim.CircleAnimationActivity"></activity>
+        <activity android:name=".simpleDemo.ValueAnimatorActivity"></activity>
+        <activity android:name=".sameAnim.CircleAnimationActivity" />
         <activity android:name=".sameAnim.CircleMotionActivity" />
         <activity android:name=".sharedElement.SharedElementTwoActivity" />
         <activity android:name=".sharedElement.SharedElementOneActivity" />

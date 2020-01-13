@@ -4,4 +4,8 @@
     <string name="motion_anim">Motion Animation</string>
     <string name="circle_motion">Circle Motion</string>
     <string name="circle_animation">Circle animation</string>
+    <string name="value_animator">Value animator</string>
+    <string name="shared_activity_animation">Shared activity animation</string>
+    <string name="parrot">Parrot</string>
+    <string name="parrot_description">Green color, talks a lot, is very messy</string>
 </resources>

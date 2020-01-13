@@ -33,7 +33,7 @@ class ViewAnimActivity : AppCompatActivity() {
         for (i in 0..parentView.childCount) {
             val maxWidth = parentView.measuredWidth / 3
 
-            val yPosition = 400 + Random.nextInt(90).toFloat()
+            val yPosition = MIN_Y_DISTANCE + Random.nextInt(90).toFloat()
             val xPosition = if (Random.nextInt(2) == 1) {
                 1
             } else {
@@ -73,5 +73,6 @@ class ViewAnimActivity : AppCompatActivity() {
 
     companion object {
         const val ANIM_DURATION = 1000L
+        const val MIN_Y_DISTANCE = 400L
     }
 }

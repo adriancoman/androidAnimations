@@ -45,5 +45,25 @@
         android:text="@string/circle_animation"
         android:textAllCaps="false"
         />
+    <Button
+        android:id="@+id/valueAnimatorBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/goToCircleAnimationBtn"
+        android:text="@string/value_animator"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/sharedAnimationBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/goToCircleAnimationBtn"
+        android:text="@string/shared_activity_animation"
+        android:textAllCaps="false"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

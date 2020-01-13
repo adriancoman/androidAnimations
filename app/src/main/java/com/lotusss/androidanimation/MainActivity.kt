@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.lotusss.androidanimation.sameAnim.CircleAnimationActivity
 import com.lotusss.androidanimation.sameAnim.CircleMotionActivity
+import com.lotusss.androidanimation.sharedElement.SharedElementOneActivity
 import com.lotusss.androidanimation.simpleDemo.MotionActivity
+import com.lotusss.androidanimation.simpleDemo.ValueAnimatorActivity
 import com.lotusss.androidanimation.simpleDemo.ViewAnimActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -26,6 +28,12 @@ class MainActivity : AppCompatActivity() {
         }
         goToCircleAnimationBtn.setOnClickListener {
             startActivity(Intent(this, CircleAnimationActivity::class.java))
+        }
+        valueAnimatorBtn.setOnClickListener {
+            startActivity(Intent(this, ValueAnimatorActivity::class.java))
+        }
+        sharedAnimationBtn.setOnClickListener {
+            startActivity(Intent(this, SharedElementOneActivity::class.java))
         }
     }
 }
